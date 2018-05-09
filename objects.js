@@ -4,6 +4,6 @@ let playlist = {
 
 
 
-function updatePlaylist(object, key, value) {
-  return Object.assign({}, object, { [key]: value});
+function updatePlaylist(playlist, artistName, songTitle) {
+  return Object.assign({}, object, { [artistName]: songTitle});
 }
