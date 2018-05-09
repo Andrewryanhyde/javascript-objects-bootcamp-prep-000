@@ -5,10 +5,7 @@ let playlist = {
 };
 
   
-function updatePlayList (playlist, artistName, songTitle) {
-  playlist.assign({}, playlist, {
-    artistName: songTitle
-  })
-  return playlist;
+function updatePlayList(playlist, artistName, songTitle) {
+  return Object.assign({}, playlist, artistName, songTitle)
 
 }
