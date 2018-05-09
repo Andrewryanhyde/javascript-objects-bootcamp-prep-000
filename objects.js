@@ -4,7 +4,7 @@ let playlist = {
   Muse: "Supermassive Black Hole"
 };
 
-function updatePlayList(playlist, artistName songTitle) {
+function updatePlayList(playlist, artistName, songTitle) {
   Object.assign({}, playlist, {
     artistName: songTitle
   })
