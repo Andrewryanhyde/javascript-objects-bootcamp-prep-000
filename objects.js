@@ -1,4 +1,6 @@
-let playlist = {artistName: songTitle}
+let playlist = {
+  "Lady Gaga" : "Paparazzi"
+}
 
 
 
