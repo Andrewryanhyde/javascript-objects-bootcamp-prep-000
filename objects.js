@@ -1,8 +1,5 @@
-let playlist = {
-  LadyGaga: "Telephone",
-  Beyonce: "Halo",
-  Muse: "Supermassive Black Hole"
-}
+let playlist = {artistName: songTitle}
+
 
 
 function updatePlaylist(playlist, artistName, songTitle) {
